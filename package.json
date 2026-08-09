@@ -24,5 +24,8 @@
   "devDependencies": {
     "lefthook": "^1.11.13",
     "next": "16.2.12"
+  },
+  "dependencies": {
+    "jsx-runtime": "^1.2.0"
   }
 }
