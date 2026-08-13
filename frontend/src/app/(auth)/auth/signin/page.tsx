@@ -25,7 +25,7 @@ export default function SignInPage() {
 
   useEffect(() => {
     if (!loading && user) {
-      router.replace('/dashboard')
+      router.replace('/team')
     }
   }, [loading, user, router])
 
