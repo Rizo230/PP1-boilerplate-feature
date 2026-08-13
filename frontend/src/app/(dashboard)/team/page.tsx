@@ -19,8 +19,8 @@ export default async function TeamPage() {
 
   return (
     <div className="container py-5">
-      <h1 className="fw-bold mb-1">{TEAM_NAME}</h1>
-      <p className="text-muted mb-4">Capstone Project — Client Proposal Platform</p>
+      <h1 className="fw-bold mb-1 text-white">{TEAM_NAME}</h1>
+      <p className="text-white-50 mb-4">Capstone Project — Client Proposal Platform</p>
 
       <div className="row g-4">
         {TEAM_MEMBERS.map((member) => (
