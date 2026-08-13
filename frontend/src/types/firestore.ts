@@ -31,3 +31,10 @@ export interface Note {
   updatedAt: Timestamp
   _schemaVersion: 1
 }
+
+export interface TeamMember {
+  name: string
+  role: string
+  photoUrl: string | null
+  blurb: string
+}
